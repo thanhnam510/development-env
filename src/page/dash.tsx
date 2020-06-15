@@ -2,12 +2,12 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { BasePageProps } from 'component';
 
-export const About: React.FC<BasePageProps> = () => (
+export const Dash: React.FC<BasePageProps> = () => (
   <>
     <Helmet>
-      <title>About</title>
+      <title>Dash</title>
     </Helmet>
-    <h1>About</h1>
-    <p>Hello Worrld About!</p>
+    <h1>Dash</h1>
+    <p>Hello Worrld Dash!</p>
   </>
 );
